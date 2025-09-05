@@ -1,0 +1,139 @@
+.section-heading-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin: 40px 0; 
+}
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.circle-icon {
+  position: relative;
+  width: 22px;
+     height: 22px;
+  border-radius: 50%;
+  background: orange; 
+}
+
+.circle-icon::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+     width: 10px;
+  height: 10px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: white;
+}
+
+.section-heading h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+.about {
+  padding: 80px 10%;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  background: #fff;
+}
+
+.about-container {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-left {
+  flex: 1;
+}
+
+.about-image {
+   height: auto;
+  max-width: 500px;
+     border-radius: 8px;
+  background: #ddd; 
+}
+
+.about-right {
+  flex: 1.2;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  color: #ff6600;
+  display: flex;
+     align-items: center;
+  gap: 6px;
+}
+
+.section-title {
+  font-size: 32px;
+    font-weight: bold;
+  margin: 10px 0;
+}
+
+.about-text {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-stats {
+  display: flex;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.stat-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stat-icon {
+  font-size: 32px;
+  color: #ff6600;
+}
+
+.stat-box h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+.about-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 20px;
+  margin: 20px 0;
+  list-style: none;
+  padding: 0;
+}
+
+.check-icon {
+  color: #ff6600;
+  margin-right: 8px;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff6600;
+  color: #fff;
+    text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e65c00;
+}
